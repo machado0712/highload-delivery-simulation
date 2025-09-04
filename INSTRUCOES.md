@@ -1,8 +1,3 @@
-
----
-
-### `INSTRUCOES.md`
-
 # Instruções do Desafio – Highload Delivery Simulation
 
 > Este documento detalha as informações de arquitetura e teste do sistema de delivery escalável, com seus endpoints e fluxos de trabalho.
@@ -97,8 +92,6 @@
 ---
 
 ## 4. Endpoints
-
----
 
 ### 4.1. Criar Pedido
 
